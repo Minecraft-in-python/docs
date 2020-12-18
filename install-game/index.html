@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Installation - Minecraft in python</title>
+  <title>Install game - Minecraft in python</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Installation";
-    var mkdocs_page_input_path = "installation-guide.md";
+    var mkdocs_page_name = "Install game";
+    var mkdocs_page_input_path = "install-game.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -54,14 +54,22 @@
                     <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                     </li>
                 </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../install-res/">Install resource</a>
+                    </li>
+                </ul>
                 <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Installation</a>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Install game</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#download-source-code-or-git-repository">Download source code or git repository</a>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#before-playing">Before playing</a>
         <ul>
     <li class="toctree-l3"><a class="reference internal" href="#installpy">install.py</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#commandline-arguments">Commandline arguments</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l3"><a class="reference internal" href="#register">Register</a>
     </li>
@@ -100,7 +108,7 @@
     
       
     
-    <li>Installation</li>
+    <li>Install game</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -111,8 +119,8 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="installation-guide">Installation guide</h1>
-<p>It's a brief guide on how to install mcpy.</p>
+                <h1 id="installation-guide-of-game">Installation guide of game</h1>
+<p><strong>You should first install resource package!</strong></p>
 <h2 id="download-source-code-or-git-repository">Download source code or git repository</h2>
 <p>The source code of mcpy are stored in Github and Gitee.</p>
 <p>Use git:</p>
@@ -147,6 +155,12 @@ unzip Minecraft.zip -d Minecraft
 <blockquote>
 <p>Double-click this file or type <code>./install.py</code> on terminal.</p>
 </blockquote>
+<h4 id="commandline-arguments">Commandline arguments</h4>
+<ul>
+<li><code>--no-install-requirements</code> - Don't install requirements</li>
+<li><code>--hide-output</code> - Don't show anything when pip was ran</li>
+<li><code>--use-pip&lt;n&gt;</code> - Use pip version <em>n</em></li>
+</ul>
 <h3 id="register">Register</h3>
 <p>Register a player is very easy, it's an offline operation on terminal.</p>
 <p>Every player has it's own id which generate by <code>uuid</code> module.</p>
@@ -173,7 +187,7 @@ alias mcpy=&quot;cd ~/Minecraft &amp;&amp; python -m Minecraft $* &amp;&amp; cd 
         <a href="../about/contributing/" class="btn btn-neutral float-right" title="Contributing">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../install-res/" class="btn btn-neutral" title="Install resource"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -201,7 +215,7 @@ alias mcpy=&quot;cd ~/Minecraft &amp;&amp; python -m Minecraft $* &amp;&amp; cd 
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../install-res/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
         <span style="margin-left: 15px"><a href="../about/contributing/" style="color: #fcfcfc">Next &raquo;</a></span>
