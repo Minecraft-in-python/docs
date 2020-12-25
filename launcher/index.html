@@ -9,7 +9,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Install resource - Minecraft in python</title>
+  <title>Launcher - Minecraft in python</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
 
   <link rel="stylesheet" href="../css/theme.css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Install resource";
-    var mkdocs_page_input_path = "install-res.md";
+    var mkdocs_page_name = "Launcher";
+    var mkdocs_page_input_path = "launcher.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -54,14 +54,14 @@
                     <li class="toctree-l1"><a class="reference internal" href="..">Home</a>
                     </li>
                 </ul>
-                <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../launcher/">Launcher</a>
-                    </li>
-                </ul>
                 <ul class="current">
-                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Install resource</a>
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Launcher</a>
     <ul class="current">
     </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../install-res/">Install resource</a>
                     </li>
                 </ul>
                 <ul>
@@ -96,7 +96,7 @@
     
       
     
-    <li>Install resource</li>
+    <li>Launcher</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -107,22 +107,18 @@
           <div role="main">
             <div class="section">
               
-                <p><strong>The zip file of resource pack is included in the 
-<a href="https://github.com/Minecraft-in-python/Minecraft">Minecraft-in-python/Minecraft</a> repository!</strong></p>
-<h1 id="installation-guide-of-resource-package">Installation guide of resource package</h1>
-<p>Use git:</p>
+                <h1 id="game-launcher">Game launcher</h1>
+<p>You can download the launcher(source code) from <a href="https://github.com/Minecraft-in-python/launcher">here</a>.</p>
+<p>Download and install:</p>
 <pre><code class="language-bash"># Github
-git clone htts://github.com/Minecraft-in-python/resource-pack
+git clone https://github.com/Minecraft-in-python/launcher
 # Gitee
-git clone https://gitee.com/Minecraft-in-python/resource-pack
+git clone https://gitee.com/Minecraft-in-python/launcher
+cd launcher
+./install
+python -m launcher
 </code></pre>
-<p>Download and unzip:</p>
-<pre><code class="language-bash">wget https://github.com/Minecraft-in-python/resource-pack/archive/master.zip -O Minecraft.zip
-# or
-wget https://gitee.com/Minecraft-in-python/resource-pack/repository/archive/master.zip -O Minecraft.zip
-unzip Minecraft.zip -d Minecraft
-</code></pre>
-<p>Then, change directory to <code>resource-pack</code>. Run file <code>install.py</code>, It will install the <code>default</code> resource package.</p>
+<p>Game launcher download, install and manage different versions of game.</p>
               
             </div>
           </div>
@@ -130,10 +126,10 @@ unzip Minecraft.zip -d Minecraft
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../install-game/" class="btn btn-neutral float-right" title="Install game">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../install-res/" class="btn btn-neutral float-right" title="Install resource">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../launcher/" class="btn btn-neutral" title="Launcher"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href=".." class="btn btn-neutral" title="Home"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -161,10 +157,10 @@ unzip Minecraft.zip -d Minecraft
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../launcher/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../install-game/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../install-res/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
